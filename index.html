@@ -461,7 +461,7 @@
             });
           
             $(window).scroll(function() {
-                if($("#myNavbar").is(":visible")) {
+                if($("#myNavbar").is(":visible") && $(".navbar-toggle").is(":visible")) {
                     $('.navbar-toggle').click();
                 }
                 $(".slideanim").each(function(){
