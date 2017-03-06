@@ -45,11 +45,11 @@
             }
 
             .jumbotron {
-                background-image: url("bg_vintage_red.jpg");
+                background-image: url("/includes/images/bg_vintage_yellow.jpg");
                 background-repeat: no-repeat;
                 background-size: 100%;
-                background-color: #9D130B;
-                color: #EAB30E;
+                background-color: #EAB30E;
+                color: #9D130B;
                 margin-bottom:0;
                 padding: 60px 25px;
                 font-family: "Playfair Display", sans-serif;
@@ -58,6 +58,16 @@
             .jumbotron h1 {
                 font-size: 40px;
             }
+            
+            .jumbotron h1 {
+                font-size: 40px;
+                font-weight: bold;
+            }
+            
+            .jumbotron h3 {
+                font-weight: bold;
+            }
+            
             .affix {
                 top:0;
                 width: 100%;
@@ -85,7 +95,7 @@
             
             .navbar {
                 margin-bottom: 0;
-                background-color: #9D130B;
+                background-color: #E30613;
                 z-index: 9999;
                 border: 0;
                 font-size: 12px !important;
@@ -113,9 +123,53 @@
               background-color: #eee;
             }
 
-            .parallax {
+            .invitation1 {
                 /* The image used */
-                background-image: url("wedding_art1.jpeg");
+                background-image: url("/includes/images/invite1.jpg");
+                background-size: 100%;
+                width: 500px;
+                height: 600px;
+                /* Create the parallax scrolling effect */
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+            
+            .invitation2 {
+                /* The image used */
+                background-image: url("/includes/images/invite2.jpg");
+                background-size: 100%;
+                width: 500px;
+                height: 600px;
+                /* Create the parallax scrolling effect */
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+            
+            .invitation3 {
+                /* The image used */
+                background-image: url("/includes/images/invite3.jpg");
+                background-size: 100%;
+                width: 500px;
+                height: 600px;
+                /* Create the parallax scrolling effect */
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+            
+            .invitation4 {
+                /* The image used */
+                background-image: url("/includes/images/invite4.jpg");
+                background-size: 100%;
+                width: 500px;
+                height: 600px;
+                /* Create the parallax scrolling effect */
+                background-repeat: no-repeat;
+                margin: auto;
+            }
+            
+            .parallax1 {
+                /* The image used */
+                background-image: url("/includes/images/ganesha6.png");
 
                 min-height: 350px;
                 /* Create the parallax scrolling effect */
@@ -124,9 +178,10 @@
                 background-repeat: no-repeat;
                 background-size: cover;
             }
+            
             .parallax2 {
                 /* The image used */
-                background-image: url("wedding_art5.jpeg");
+                background-image: url("/includes/images/.jpg");
 
                 min-height: 400px;
                 /* Create the parallax scrolling effect */
@@ -138,7 +193,7 @@
 
             .parallax3 {
                 /* The image used */
-                background-image: url("wedding_art4.jpeg");
+                background-image: url("/includes/images/bg_scroll2.png");
 
                 min-height: 400px;
                 /* Create the parallax scrolling effect */
@@ -150,7 +205,7 @@
 
             .parallax4 {
                 /* The image used */
-                background-image: url("wedding_art8.jpeg");
+                background-image: url("/includes/images/ganesha7.png");
 
                 min-height: 400px;
                 /* Create the parallax scrolling effect */
@@ -162,7 +217,7 @@
 
             .parallax5 {
                 /* The image used */
-                background-image: url("wedding_art7.jpeg");
+                background-image: url("/includes/images/wedding_art7.jpeg");
 
                 min-height: 400px;
                 /* Create the parallax scrolling effect */
@@ -177,7 +232,7 @@
             #section3 {padding-top:50px;min-height:400px;color: #4E3E32; background-color: #EAB30EEAB30E;}
             #section4 {padding-top:50px;min-height:300px;color: #4E3E32; background-color: #efedc9;}
             #section5 {padding-top:50px;min-height:400px;color: #4E3E32; background-color: #EAB30EEAB30E;}
-            footer {padding-top:50px;color: #EAB30E; background-color: #185d62;}
+            footer {padding-top:50px;color: #EAB30E; background-color: #234C2B;}
             footer a {
                 color: #d2dae4;
             }
@@ -227,7 +282,7 @@
             
             @media (min-width: 400px) {
                 body { 
-                    font: 400 18px Lato, sans-serif;
+                    font: 400 18px "Playfair Display", sans-serif, sans-serif;
                     line-height: 1.8;
                     color: #818181;
                 }
@@ -235,21 +290,46 @@
 
             @media (min-width: 800px) {
                 body { 
-                    font: 400 16px Lato, sans-serif;
+                    font: 400 16px "Playfair Display", sans-serif, sans-serif;
                     line-height: 1.8;
                     color: #818181;
                 }
+            }
+            
+            .carousel-control.right, .carousel-control.left {
+                background-image: none;
+                color: #f4511e;
+            }
+
+            .carousel-indicators li {
+                border-color: #f4511e;
+            }
+
+            .carousel-indicators li.active {
+                background-color: #f4511e;
+            }
+
+            .item h4 {
+                font-size: 19px;
+                line-height: 1.375em;
+                font-weight: 400;
+                font-style: italic;
+                margin: 70px 0;
+            }
+
+            .item span {
+                font-style: normal;
             }
         </style>
     </head>
     <body id="home" data-spy="scroll" data-target=".navbar" data-offset="50">
 
         <div id="jumbo_header" class="jumbotron text-center">
-            <h1>Kumaresh and Gowsika</h1>
+            <h1>Kumaresh weds Gowsika</h1>
             <h3>4th June 2017, Sunday</h3>
         </div>
 
-        <nav class="navbar navbar-light" data-spy="affix" data-offset-top="285">
+        <nav class="navbar navbar-light" data-spy="affix" data-offset-top="240">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                   <span class="icon-bar"></span>
@@ -261,7 +341,7 @@
             <div>
               <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#section1_heading">Welcome</a></li>
+                  <li><a href="#section1">Welcome</a></li>
                   <li><a href="#section2_heading">Invitation</a></li>
                   <li><a href="#section3_heading">Schedule</a></li>
                   <li><a href="#section4_heading">Venue</a></li>
@@ -270,35 +350,60 @@
               </div>
             </div>
         </nav>    
-
-        <div id="section1_heading" class="container-fluid text-center parallax">
-        </div>
         <div id="section1" class="container-fluid text-center">
             <div class="container">
             <h2 class="text-center">Welcome!</h2>
                 <div class="row">
                     <div class="col-md-12">
-                        <p>With our wedding fast approaching, planning is well under way and we are looking forward to seeing you all on our big day. This website will house all the important details that you may like to know prior to attendance. Feel free to reach out to us if there's anything else you would like to know - kumaresh.gowsika@gmail.com</p>
+                        <p>With our wedding fast approaching, planning is well under way and we are looking forward to seeing you all on our big day. This website will house all the important details that you may like to know prior to attendance. Please feel free to get in touch with us if you have any queries by the email below:</p>
+                        <p>kumaresh.gowsika@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="section2_heading" class="container-fluid text-center parallax2">
+        <div id="section2_heading" class="container-fluid text-center parallax1">
         </div>
         <div id="section2" class="container-fluid">
             <div class="container">
                 <div class="row">
                     <h2 class="text-center">Invitation</h2>
-                    <div class="col-md-4 text-center">
-                        <span class="glyphicon glyphicon-envelope logo slideanim"></span> 
-                    </div>
-                    <div class="col-md-8">
-                        <p>Praesent non laoreet urna. Etiam viverra consectetur varius. Proin scelerisque felis vitae mauris congue euismod. Pellentesque ultricies at sem at convallis. Morbi ipsum diam, ullamcorper eu pretium sollicitudin, imperdiet ut sapien. Nulla eleifend turpis odio, at blandit mi sagittis at. In sed orci sit amet elit euismod vestibulum ac sit amet arcu. Phasellus faucibus id leo in fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed non enim vel magna vulputate egestas vel id risus.</p>
+                    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+                      <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                      </ol>
+
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="invitation1"></div>
+                        </div>
+                        <div class="item">
+                          <div class="invitation2"></div>
+                        </div>
+                        <div class="item">
+                          <div class="invitation3"></div>
+                        </div>
+                        <div class="item">
+                          <div class="invitation4"></div>
+                        </div>
+                      </div>
+
+                      <!-- Left and right controls -->
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="section3_heading" class="container-fluid text-center parallax3">
         </div>
         <div id="section3" class="container-fluid text-center">
             <h2>Schedule</h2>
@@ -307,18 +412,19 @@
             <div class="row slideanim">
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-heart logo-small"></span>
-                    <h4>Ceremony</h4>
+                    <h4>Hindu Ceremony</h4>
                     <p><strong>From:</strong> 10.00am</p>
                     <p><strong>To:</strong> 12.30pm</p>
                 </div>
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-apple logo-small"></span>
                     <h4>Lunch</h4>
-                    <p>The ceremony will be followed by a lunch in the dining room. Vegetarian/vegan food will be served.</p>
+                    <p>The ceremony will be followed by a vegetarian buffet lunch in the Henry the VII Suite.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-glass logo-small"></span>
                     <h4>Reception</h4>
+                    <p><strong>Canapes will be served in the foyer prior to the reception.</p>
                     <p><strong>From:</strong> 6.30pm</p>
                     <p><strong>To:</strong> Late</p>
                 </div>
@@ -330,18 +436,18 @@
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-cutlery logo-small"></span>
                     <h4>Dinner</h4>
-                    <p>There will be a dinner around 8.00pm. Please specify whether you would like the veg or non-veg option in your RSVP.</p>
+                    <p>A sit down meal served at 8pm. Please specify your preference for veg/non-veg option in your RSVP.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-star-empty logo-small"></span>
                     <h4>Entertainment</h4>
-                    <p>There will be a live DJ throughout the reception</p>
+                    <p>DJ Braha (Bee Sounds) will be our host for the evening reception</p>
                 </div>
                 <div class="col-md-2">
                 </div>
             </div>
         </div>
-        <div id="section4_heading" class="container-fluid text-center parallax4">
+        <div id="section4_heading" class="container-fluid text-center parallax3">
         </div>
         <div id="section4" class="container-fluid text-center">
             <h2>Venue</h2>
@@ -356,7 +462,9 @@
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-plane logo-small"></span>
                     <h4>Closest Airport</h4>
-                    <p>Stansted Aiport</p>
+                    <p>Stansted Airport</p>
+                    <p>Bassingbourn Rd,Stansted
+                    <p>CM24 1QW, UK</p>
                 </div>
                 <div class="col-md-4">
                     <span class="glyphicon glyphicon-home logo-small"></span>
@@ -384,30 +492,30 @@
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR70hE3HiCQx1uXDbJBQ5tdcBF4Bd72x0&callback=myMap"></script>
         
-        <div id="section5_heading" class="container-fluid text-center parallax5">
+        <div id="section5_heading" class="container-fluid text-center parallax4">
         </div>
         <div id="section5" class="container-fluid text-center">
             <div class="container">
                 <h2>RSVP</h2>
                 <div class="row">
-                    <form id="rsvp" data-toggle="validator" role="form" action="rsvp-email.php">
+                    <form id="rsvp" data-toggle="validator" role="form" action="/includes/scripts/rsvp-email.php">
                         <div class="col-md-12">
-                            <p>To RSVP, please submit the form with your name, party number, and any notes.</p>
+                            <p>Please submit the form with your name, number of guests, meal options for everyone, and any dietary allergies.</p>
                             <div class="row">
                                 <div class="col-md-6 slideanim">
                                     <div class="form-group ">
                                         <input class="form-control" id="name" name="name" placeholder="Full Name" type="text" required>
                                     </div>
                                     <div class="form-group ">
-                                        <input class="form-control" id="party_number" name="party_number" placeholder="Party Number" type="number" required>
+                                        <input class="form-control" id="party_number" name="party_number" placeholder="Number of guests" type="number">
                                     </div>
                                     <label for="veg" class="control-label">Meal Options</label>
                                     <div class="row">
                                         <div class="col-md-6 form-group ">
-                                            <input class="form-control" id="veg" name="veg" placeholder="Vegetarian Total" type="number" required>
+                                            <input class="form-control" id="veg" name="veg" placeholder="Vegetarian Total" type="number">
                                         </div>
                                         <div class="col-md-6 form-group ">
-                                            <input class="form-control" id="non_veg" name="non_veg" placeholder="Non-vegetarian Total" type="number" required>
+                                            <input class="form-control" id="non_veg" name="non_veg" placeholder="Non-vegetarian Total" type="number">
                                         </div>
                                     </div>
                                 </div>
@@ -509,13 +617,13 @@
                     $('#comments').val('');
                 })
                 .fail(function(data) {
-                    $('#section5').append('<div class="alert alert-danger alert-dismissable fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Thank you!</strong> Your RSVP has been recorded.</div>');
+                    
                     
                     // Set the message text.
                     if (data.responseText !== '') {
-                        $(formMessages).text(data.responseText);
+                        $('#section5').append('<div class="alert alert-danger alert-dismissable fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>' + data.responseText + '</div>');
                     } else {
-                        $(formMessages).text('Oops! An error occured and your RSVP could not be recorded. Please try again. if the problem persists, please email your RSVP to kumaresh.gowsika@gmail.com');
+                        $('#section5').append('<div class="alert alert-danger alert-dismissable fade in"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a><strong>Oops! An error occured and your RSVP could not be recorded. Please try again. if the problem persists, please email your RSVP to kumaresh.gowsika@gmail.com</div>');
                     }
                 });
             });
